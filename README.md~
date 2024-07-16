@@ -1,0 +1,10 @@
+## Espaol:
+
+### temas a tener en cuenta para este proyecto:
+
+- Crear, clonar y forkear (bifurcar) un repositorio de git
+- Compilar un programa, utilizando `gcc`
+  - Para que sirven las banderas a la hora de compilar un archivo .c
+  - Tipos de variables `int`, `char`, `unsigned int`
+    - Cuanto espacio en memoria ocupa cada tipo de dato
+      - Tipo de valores m
