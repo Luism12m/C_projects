@@ -19,4 +19,10 @@ int main(void){
   printf("My variable of char ASCII type is : %c, and memory space is : %li bytes\n",letter2,sizeof(letter2));
   printf("My variable of double type is : %.1f, and memory space is : %li bytes\n",number2,sizeof(number2));
   printf("M variable random is : %i, and memory space is : %li bytes\n",randomNumber,sizeof(randomNumber));
+  if(randomNumber>50){
+    printf("El numero 51 es mayor que 50 YAY!\n");
+    }
+  else{
+    printf("El numero  49 no es mayor que 50 :(\n");
+}
 }
