@@ -14,6 +14,10 @@ int main (void){
     printf("iteracion [%d] hola mundo\n",count);
     count = count + 1;
   }
-    
+   
+   
+   for (int count = 0; count <= 5; count++){
+     printf("iteracion [%d] hola mundo con for\n",count);
+   }
 
 }
