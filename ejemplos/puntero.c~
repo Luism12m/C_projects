@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main(void)
+{
+  /* defino una variable tipo int */
+  int intVariable = 0;
+  /* defino una variable tipo pointer */
+  int *intVariablePointer = &intVariable;
+
+  /* imprimo en consola el valor de la variable tipo int */
+  printf("valor de mi variable int: %d\n", intVariable);
+  /* imprimo en consola el valor de la variable tipo pointer */
+  printf("valor de mi variable puntero: %p\n", intVariablePointer);
+  /* imprimo en consola el valor desreferenciado de la variable tipo int */
+  /*  printf("valor de mi variable tipo int desde mi variable tipo puntero: %d", *intVarriablePointer);*/
+  /* cambio exclusivamente el valor de mi variable tipo int */
+  intVariable = 5;
+
+  /* imprimo en consola el valor de la variable tipo int */
+  printf("valor de mi variable int: %d\n", intVariable);
+  /* imprimo en consola el valor de la variable tipo pointer */
+  printf("valor de mi variable puntero: %p\n", intVariablePointer);
+  /* imprimo en consola el valor desreferenciado de la variable tipo int */
+  printf("valor de mi variable tipo int desde mi variable tipo puntero: %d", *intVarriablePointer);
+}
