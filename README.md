@@ -1,6 +1,6 @@
-## Espaol:
+## Espanol:
 
-### temas a tener en cuenta para este proyecto:
+### Temas a tener en cuenta para este proyecto:
 
 - Crear, clonar y forkear (bifurcar) un repositorio de git
 - Compilar un programa, utilizando `gcc`
