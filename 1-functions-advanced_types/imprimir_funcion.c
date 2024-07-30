@@ -6,17 +6,20 @@
 */
 
 int print_int_array (int *arrayToPrint,int lenght)
+  
  {
-   for (lenght = 0; lenght <= 5; lenght++){
-     printf("elemento numero [%d] \n ",arrayToPrint[lenght]);
+   int i = 0; 
+   for (i = 0; i < lenght; i++){
+     printf("elemento numero [%d] \n ",arrayToPrint[i]);
     
    }
-   return 0;
+   return (i);
  }
 int  main (){
-  int array [] ={1,2,3,4,5};
-  int result = print_int_array(array);
-    return 0;
+  int lenght = 5;
+  int array [] = {1,2,3,4,5};
+  print_int_array(array,lenght);
+  return 0;
 }
 
    
