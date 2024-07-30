@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
-*main -function parameters
-*Return : always 0
+*main -function parameters int *arrayToPrint,int lenght
+*Return : i
 */
 
 int print_int_array (int *arrayToPrint,int lenght)
@@ -14,7 +14,13 @@ int print_int_array (int *arrayToPrint,int lenght)
     
    }
    return (i);
+
  }
+/**
+*main -function parameters
+*Return : always 0
+*/
+
 int  main (){
   int lenght = 5;
   int array [] = {1,2,3,4,5};
